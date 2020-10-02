@@ -6,3 +6,6 @@ The official repository of [Jointly Modeling Motion and Appearance Cues for Robu
 ![avatar](https://github.com/zhang-pengyu/JMMAC/blob/master/res_GTOT.png)
 
 ![avatar](https://github.com/zhang-pengyu/JMMAC/blob/master/res_RGBT234.png)
+
+## Update
+### 10.2: The results on GTOT, RGBT234 and VOT19-RGBT are released.
