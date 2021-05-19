@@ -1,6 +1,6 @@
 # JMMAC
 
-    This is an offical MATLAB implementation of tracker 'Joint Modeling Motion and Appearance Cues~(JMMAC) for Robust RGB-T Tracking' submitted to VOT-RGBT2020 challenge.
+    This is an offical MATLAB implementation of tracker [Jointly Modeling Motion and Appearance Cues~(JMMAC) for Robust RGB-T Tracking](https://ieeexplore.ieee.org/document/9364880).
 
 ## Introduction
 
