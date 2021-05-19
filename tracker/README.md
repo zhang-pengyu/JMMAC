@@ -21,30 +21,30 @@ Our tracker is run on Ubuntu 18.04 LTS with Intel i9-9900k @3.6GHz and Nvidia GT
    
 ## Installation
         
-Set your tracker path in the file './external_libs/yolo/darknet/cfg/coco.data' to load the coco dataset.
+Set your tracker path in the file './external_libs/yolo/darknet/cfg/coco.data' to load the coco dataset.\
 
-Start Matlab and navigate to the repository. 
-Run the install script:
-|>> install
+Start Matlab and navigate to the repository.\
+Run the install script:\
+|>> install\
 
-if you have no GPU, you can run our tracker with single CPU.
-Run the install_CPU script:
+if you have no GPU, you can run our tracker with single CPU.\
+Run the install_CPU script:\
 |>> install_CPU
 
 ## Integration Into VOT
     
-First, you need to set 'MATLAB_ROOT' to your environment to let vot find your MATLAB execution.
+First, you need to set 'MATLAB_ROOT' to your environment to let vot find your MATLAB execution.\
 
-Since MATLAB needs compilation and there will be a one-time delay for GPU computing commands, please increase the time limitation of trax by 
-setting 'timeout' = 500 in file 'your_vot_path/tracker/trax.py'.
+Since MATLAB needs compilation and there will be a one-time delay for GPU computing commands, please increase the time limitation of trax by \
+setting 'timeout' = 500 in file 'your_vot_path/tracker/trax.py'.\
 
-To integrate the tracker into the Visual Object Tracking (VOT) challenge toolkit, check the 'VOT_integration' folder. 
-Copy the configuration file 'tracker.ini' to your tracker configuration file and set the path to the tracker reposetory inside it.
+To integrate the tracker into the Visual Object Tracking (VOT) challenge toolkit, check the 'VOT_integration' folder. \
+Copy the configuration file 'tracker.ini' to your tracker configuration file and set the path to the tracker reposetory inside it.\
 
 ## Testing without GPU
 
-If you run the tracker without GPU, please set the flag 'use_gpu' to false in run_JMMAC_VOT.m. 
-Note that this may lead a performace fluctuation without using GPU.
+If you run the tracker without GPU, please set the flag 'use_gpu' to false in run_JMMAC_VOT.m. \
+Note that this may lead a performace fluctuation without using GPU.\
 
 ## Reference 
 
