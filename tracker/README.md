@@ -8,8 +8,8 @@
    
 ## Dependence
  
-    CUDA 9.0 
-    CuDNN 7.1.0
+    CUDA 10.0 
+    CuDNN 7.4.1
     Matconvnet 1.0-beta25~(www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta25.tar.gz)
     MATLAB 2015b~(Other version of MATLAB may get different results.)
     gcc 4.8
