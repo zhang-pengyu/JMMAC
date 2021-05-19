@@ -7,13 +7,13 @@ In  this  study,  we propose a novel RGB-T tracking framework by jointly modelin
    
 ## Dependence
  
-CUDA 10.0 
-CuDNN 7.4.1
-[[Matconvnet 1.0-beta25]](www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta25.tar.gz)
-MATLAB 2015b~(Other version of MATLAB may get different results.)
-gcc 4.8
-g++ 4.8
-[[PDollar Toolbox]](https://github.com/pdollar/toolbox)
+* CUDA 10.0 
+* CuDNN 7.4.1
+* [[Matconvnet 1.0-beta25]](www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta25.tar.gz)
+* MATLAB 2015b~(Other version of MATLAB may get different results.)
+* gcc 4.8
+* g++ 4.8
+* [[PDollar Toolbox]](https://github.com/pdollar/toolbox)
 
 ##  Operation System
    
