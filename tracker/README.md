@@ -1,9 +1,9 @@
 # JMMAC
-This is an offical MATLAB implementation of tracker [Jointly Modeling Motion and Appearance Cues~(JMMAC) for Robust RGB-T Tracking](https://ieeexplore.ieee.org/document/9364880).
+This is an offical MATLAB implementation of tracker [Jointly Modeling Motion and Appearance Cues for Robust RGB-T Tracking](https://ieeexplore.ieee.org/document/9364880).
 
 ## Introduction
 
-In this study, we propose a novel RGB-T tracking framework by jointly modeling both appearance and motion cues. First, to obtain a robust appearance model, we develop a novel late fusion method to infer the fusion weight maps of both RGB and thermal (T) modalities. The fusion weights are determined by using offline-trained global and local Multimodal Fusion Networks (MFNet), and then adopted to linearly combine the response maps of RGB and T modalities obtained from ECOs. Second, when the appearance cue is unreliable, we comprehensively take motion cues, i.e., camera motions, into account to make the tracker robust. The camera motion is inferred based on the key-point-based image registration technique. Finally, we employ YOLOv2 to refine the bounding box.
+In  this  study,  we propose a novel RGB-T tracking framework by jointly modeling both appearance and motion cues. First, to obtain a robust appearance model, we  develop a novel late fusion method to infer the fusion weight maps of both RGB and thermal (T) modalities. The fusion weights are determined by using offline-trained global and local multimodal fusion networks, and then adopted to linearly combine theresponse maps of RGB and T modalities. Second, when the appearance cue is unreliable, we comprehensively take motion cues, i.e., target and camera motions, into account to make the tracker robust. We further propose a tracker switcher to switch the appearance and motion trackers flexibly. Numerous resultson three recent RGB-T tracking datasets show that the proposed tracker performs  significantly better than other state-of-the-art algorithms.
    
 ## Dependence
  
