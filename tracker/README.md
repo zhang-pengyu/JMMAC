@@ -1,6 +1,6 @@
 # JMMAC
 
-    This is an offical MATLAB implementation of tracker [Jointly Modeling Motion and Appearance Cues~(JMMAC) for Robust RGB-T Tracking](https://ieeexplore.ieee.org/document/9364880).
+    This is an offical MATLAB implementation of tracker [[Jointly Modeling Motion and Appearance Cues~(JMMAC) for Robust RGB-T Tracking]](https://ieeexplore.ieee.org/document/9364880).
 
 ## Introduction
 
@@ -10,11 +10,11 @@
  
     CUDA 10.0 
     CuDNN 7.4.1
-    Matconvnet 1.0-beta25~(www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta25.tar.gz)
+    [[Matconvnet 1.0-beta25]](www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta25.tar.gz)
     MATLAB 2015b~(Other version of MATLAB may get different results.)
     gcc 4.8
     g++ 4.8
-    PDollar Toolbox~(https://github.com/pdollar/toolbox)
+    [[PDollar Toolbox]](https://github.com/pdollar/toolbox)
 
 ##  Operation System
    
@@ -49,10 +49,10 @@
 
 ## Reference 
 
-@InProceedings{ECO,
-Title = {ECO: Efficient Convolution Operators for Tracking},
-Author = {Danelljan, Martin and Bhat, Goutam and Shahbaz Khan, Fahad and Felsberg, Michael},
-Booktitle = {CVPR},
-Year = {2017}
+@InProceedings{ECO,\
+Title = {ECO: Efficient Convolution Operators for Tracking},\
+Author = {Danelljan, Martin and Bhat, Goutam and Shahbaz Khan, Fahad and Felsberg, Michael},\
+Booktitle = {CVPR},\
+Year = {2017}\
 }
 
