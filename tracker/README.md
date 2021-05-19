@@ -21,7 +21,7 @@ Our tracker is run on Ubuntu 18.04 LTS with Intel i9-9900k @3.6GHz and Nvidia GT
    
 ## Installation
         
-Set your tracker path in the file './external_libs/yolo/darknet/cfg/coco.data' to load the coco dataset.\
+Set your tracker path in the file './external_libs/yolo/darknet/cfg/coco.data' to load the coco dataset.
 
 Start Matlab and navigate to the repository.\
 Run the install script:\
@@ -33,13 +33,13 @@ Run the install_CPU script:\
 
 ## Integration Into VOT
     
-First, you need to set 'MATLAB_ROOT' to your environment to let vot find your MATLAB execution.\
+First, you need to set 'MATLAB_ROOT' to your environment to let vot find your MATLAB execution.
 
 Since MATLAB needs compilation and there will be a one-time delay for GPU computing commands, please increase the time limitation of trax by \
-setting 'timeout' = 500 in file 'your_vot_path/tracker/trax.py'.\
+setting 'timeout' = 500 in file 'your_vot_path/tracker/trax.py'.
 
 To integrate the tracker into the Visual Object Tracking (VOT) challenge toolkit, check the 'VOT_integration' folder. \
-Copy the configuration file 'tracker.ini' to your tracker configuration file and set the path to the tracker reposetory inside it.\
+Copy the configuration file 'tracker.ini' to your tracker configuration file and set the path to the tracker reposetory inside it.
 
 ## Testing without GPU
 
