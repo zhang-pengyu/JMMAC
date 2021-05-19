@@ -25,7 +25,7 @@ Set your tracker path in the file './external_libs/yolo/darknet/cfg/coco.data' t
 
 Start Matlab and navigate to the repository.\
 Run the install script:\
-|>> install\
+|>> install
 
 if you have no GPU, you can run our tracker with single CPU.\
 Run the install_CPU script:\
@@ -44,7 +44,7 @@ Copy the configuration file 'tracker.ini' to your tracker configuration file and
 ## Testing without GPU
 
 If you run the tracker without GPU, please set the flag 'use_gpu' to false in run_JMMAC_VOT.m. \
-Note that this may lead a performace fluctuation without using GPU.\
+Note that this may lead a performace fluctuation without using GPU.
 
 ## Reference 
 
