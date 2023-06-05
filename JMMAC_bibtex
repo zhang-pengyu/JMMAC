@@ -1,0 +1,8 @@
+@article{Zhang_TIP21_JMMAC,
+	author = {Pengyu Zhang and Jie Zhao and Chunjuan Bo and Dong Wang and Huchuan Lu and Xiaoyun Yang},
+	title = {Jointly Modeling Motion and Appearance Cues for Robust RGB-T Tracking},
+	journal = TIP,
+	volume = {30},
+	pages = {3335 - 3347}
+	year = {2021},
+}
