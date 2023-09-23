@@ -7,7 +7,7 @@ The official repository of [Jointly Modeling Motion and Appearance Cues for Robu
 **Note**: Other versions of gcc, cuda may lead crash when compiling with mex.
 ## Installation
   Run install.m/install_CPU.m for compiling with/without GPU.
-## Installation
-  Run install.m/install_CPU.m for compiling with/without GPU.
-## Installation
-  Run install.m/install_CPU.m for compiling with/without GPU.
+## Train
+  Run 
+## Test
+  Run 
