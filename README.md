@@ -8,4 +8,4 @@ The official repository of [Jointly Modeling Motion and Appearance Cues for Robu
 ## Installation
   Run install.m/install_CPU.m for compiling with/without GPU.
 ## Test
-  Run run_JMMAC.m or run_JMMAC_cpu.m to test on RGB-T benchmarks.
+  Run run_JMMAC.m or run_JMMAC_CPU.m to test on RGB-T benchmarks.
